@@ -50,12 +50,6 @@ This project uses the OpenWeather API to fetch real-time weather data.
 Generate your free API key from:
 https://openweathermap.org/api
 
-Replace the following line in index.js:
-
-const apiKey = "YOUR_API_KEY";
-
-with your own API key.
-
 Note: If the application stops fetching weather data, your API key may have expired, reached its usage limit, or become invalid. Simply generate a new API key from OpenWeather and update it in index.js.
 
 ## What I Learned
