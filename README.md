@@ -2,6 +2,12 @@
 
 A simple weather application built with **HTML, CSS, and JavaScript** that lets users check real-time weather conditions for any city. The app fetches live weather data using the OpenWeather API and updates the interface dynamically based on the current weather and time of day.
 
+
+## Live Demo
+https://jhanvi-code23.github.io/Weather-App/
+
+
+
 ## Features
 
 * Search weather by city name
@@ -39,11 +45,18 @@ const apiKey = "YOUR_API_KEY";
 
 ## API
 
-This project uses the OpenWeather API to fetch live weather information.
+This project uses the OpenWeather API to fetch real-time weather data.
 
-You can generate a free API key here:
-
+Generate your free API key from:
 https://openweathermap.org/api
+
+Replace the following line in index.js:
+
+const apiKey = "YOUR_API_KEY";
+
+with your own API key.
+
+Note: If the application stops fetching weather data, your API key may have expired, reached its usage limit, or become invalid. Simply generate a new API key from OpenWeather and update it in index.js.
 
 ## What I Learned
 
