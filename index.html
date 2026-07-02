@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather-o-meter</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+        <script src="https://kit.fontawesome.com/a94561adaa.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        
+        <!-- heading -->
+         <h1 id="title">Weather-o-meter</h1>
+
+
+        <!-- search box -->
+            <form id="form">
+                <input type="text" id="city" placeholder="Enter your city">
+                <button type="submit" id="submit">Search</button>
+            </form>
+
+
+        <!-- weather display container -->
+         <div id="container">
+            <article id="Weather-display">
+                <div id="weather-info">
+                    <p id="cityname"></p>
+                    <p id="datetime"></p>
+                    <i id="weather-icon" class="fa-solid fa-cloud-sun" style="color: rgb(255, 212, 59);"></i>
+                    <p id="temperature">
+                        <span id="temperature-value">--°C</span>
+                    </p>
+                    <p id="weather"></p>
+                    <p id="feelslike">Feels like 
+                        <span id="feelslike-value">--°C</span>
+                    </p>
+                </div>
+            </article>
+
+            <aside id="forecast">
+                <div id="forecast-info">
+                    <p id="humidity">Humidity: 
+                        <span id="humidity-value">--%</span>
+                    </p><br>
+                    <p id="wind">Wind Speed: 
+                        <span id="wind-value">-- km/h</span>
+                    </p><br>
+                    <p id="pressure">Pressure: 
+                        <span id="pressure-value">-- hPa</span>
+                    </p><br>
+                    <p id="visibility">Visibility: 
+                        <span id="visibility-value">-- km</span>
+                    </p><br>
+                    <p id="high">Highest: 
+                        <span id="high-value">--°C</span>
+                    </p><Br>
+                    <p id="low">Lowest: 
+                        <span id="low-value">--°C</span>
+                    </p>
+                </div>
+            </aside>
+         </div>
+
+         <p id="suggestion">Weather Suggestion: </p>
+
+    </body>
+</html>
